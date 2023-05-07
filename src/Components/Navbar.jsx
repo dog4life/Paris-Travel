@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import Home from './Home'
+
 function Navbar() {
   return (
     <>
@@ -24,15 +26,13 @@ function Navbar() {
       <li class="nav-item">
         <a class="nav-link mx-3 navlist" href="#">Contact Us</a>
       </li>
-     <button className='btn btn-warning px-5 py-2'>Book Online</button>
+     <button className='btn btn-outline-warning px-5 py-2'>Book Online</button>
     </ul>
   
   </div>
 </nav>
 </div>
-<div className="container-fluid img-home">
-      <h1 className='text-home'>TOP HOTEL IN THE CITY</h1>
-</div>
+<Home></Home>
 </>
   )
 }

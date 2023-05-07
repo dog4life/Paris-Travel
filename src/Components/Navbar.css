@@ -8,7 +8,7 @@
 .navlist{
     font-weight: 700;
 }
-.btn-warning{
+.btn-warning{   
     background-color: #F1B233;
     color: white;
 }
@@ -24,4 +24,36 @@
     font-family: 'Noto Serif', serif;
 
     font-size: 60px;
+}
+
+.box{
+    height: 222px;
+    background-color: white;
+    position: relative;
+    top: -106px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 3px black;
+}
+
+.selection-box{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border:1.5px solid #DCA73A;
+        color: gray;
+        margin-top: 20px;
+}
+.date{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1.5px solid #DCA73A;
+    margin-top: 20px;
+}
+.btn-warning{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+   
+}
+.btn-warning:hover{
+    color:white;
 }
