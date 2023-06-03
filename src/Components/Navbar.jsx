@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import Home from './Home'
-
+import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <>
@@ -15,13 +15,14 @@ function Navbar() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link mx-3 navlist" href="#">Home <span class="sr-only">(current)</span></a>
+        
+        <Link to='/home' class="nav-link mx-3 navlist" >Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
         <a class="nav-link mx-3 navlist" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link mx-3 navlist" href="#">Places</a>
+        <Link to='/places' class="nav-link mx-3 navlist" >Places</Link>
       </li>
       <li class="nav-item">
         <a class="nav-link mx-3 navlist" href="#">Contact Us</a>
@@ -32,7 +33,7 @@ function Navbar() {
   </div>
 </nav>
 </div>
-<Home></Home>
+
 </>
   )
 }

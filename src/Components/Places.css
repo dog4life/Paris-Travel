@@ -1,0 +1,9 @@
+.heading{
+    text-align: center;
+}
+.box-places{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
