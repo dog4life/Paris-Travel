@@ -1,0 +1,18 @@
+.box-contact{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.form{
+    border: 2px solid black; width: 500px; height: 500px; padding: 30px;
+}
+
+.picture{
+    border: 2px solid black; width: 500px; height: 500px
+}
+
+.btn-contact{
+    padding: 20px 100px; border: 5px solid green; color: green
+}

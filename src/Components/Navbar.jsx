@@ -16,7 +16,7 @@ function Navbar() {
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         
-        <Link to='/home' class="nav-link mx-3 navlist" >Home <span class="sr-only">(current)</span></Link>
+        <Link to='/' class="nav-link mx-3 navlist" >Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
         <a class="nav-link mx-3 navlist" href="#">About</a>
@@ -25,7 +25,7 @@ function Navbar() {
         <Link to='/places' class="nav-link mx-3 navlist" >Places</Link>
       </li>
       <li class="nav-item">
-        <a class="nav-link mx-3 navlist" href="#">Contact Us</a>
+        <Link to='/contact' class="nav-link mx-3 navlist">Contact Us</Link>
       </li>
      <button className='btn btn-outline-warning px-5 py-2'>Book Online</button>
     </ul>
