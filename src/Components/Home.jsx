@@ -9,17 +9,17 @@ function Home() {
       <h1 className='text-home'>TOP HOTEL IN THE CITY</h1>
     </div>
     <div className="row d-flex justify-content-center">
-        <div className="col-lg-7 box d-flex align-items-center flex-column justify-content-center">
+        <div className="col-lg-10 box d-flex align-items-center flex-column justify-content-center">
             <div className="row justify-content-center p-3">
-                <div className="col-lg-3">
+                <div className="col-lg-3 d-flex flex-column justify-content-center">
                     <h5>Check In Date:</h5>
                     <input type="date" className='date'  />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 d-flex flex-column justify-content-center">
                     <h5>Check Out Date:</h5>
                     <input type="date" className='date' />
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 d-flex flex-column justify-content-center">
                     <h5>Adults:</h5>
                     <select name="adults" id="adults" className='selection-box'>
                         <option value="1">1</option>
@@ -28,7 +28,7 @@ function Home() {
                         <option value="4">4</option>
                     </select>
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 d-flex flex-column justify-content-center">
                     <h5>Children:</h5>
                     <select name="adults" id="adults" className='selection-box'>
                         <option value="1">1</option>
@@ -37,7 +37,7 @@ function Home() {
                         <option value="4">4</option>
                     </select>
                 </div>
-                <div className="col-lg-1">
+                <div className="col-lg-1 d-flex flex-column justify-content-center">
                    <h5> Rooms:</h5>
                    <select name="adults" id="adults" className='selection-box'>
                         <option value="1">1</option>

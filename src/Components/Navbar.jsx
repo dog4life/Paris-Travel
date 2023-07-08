@@ -19,7 +19,7 @@ function Navbar() {
         <Link to='/' class="nav-link mx-3 navlist" >Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
-        <a class="nav-link mx-3 navlist" href="#">About</a>
+        <Link to='/about' class="nav-link mx-3 navlist">About</Link>
       </li>
       <li class="nav-item">
         <Link to='/places' class="nav-link mx-3 navlist" >Places</Link>

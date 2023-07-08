@@ -27,7 +27,7 @@
 }
 
 .box{
-    height: 222px;
+    padding:12px;
     background-color: white;
     position: relative;
     top: -106px;
