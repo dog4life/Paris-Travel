@@ -1,6 +1,6 @@
 import Caraousel from "./Components/Caraousel";
 import Navbar from "./Components/Navbar";
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter,HashRouter, Routes, Route} from "react-router-dom"
 import Places from "./Components/Places";
 import Home from "./Components/Home"
 import Footer from "./Components/Footer";
@@ -9,7 +9,7 @@ import About from "./Components/About"
 function App() {
   return (
   <>
-   <BrowserRouter>
+   <HashRouter>
    <Navbar></Navbar>
    <Routes>
     <Route path={"/places"} element={<Places></Places>}></Route>
@@ -18,7 +18,7 @@ function App() {
     <Route path={"/about"} element={<About></About>}></Route>
    </Routes>
    <Footer></Footer>
-   </BrowserRouter>
+   </HashRouter>
   </>
   );
 }
